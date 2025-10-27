@@ -34,5 +34,19 @@ It’s a place *“Where Every Line Has a Story.”*
 
 ---
 
-## 📂 Folder Structure
+## ⚙️ Installation & Setup
 
+Follow these steps to run CodeChronicles locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/CodeChronicles.git
+
+# 2. Navigate into the project folder
+cd CodeChronicles
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
