@@ -53,6 +53,6 @@ npm start
 
 ---
 
-## 🧠 Vision ##
+## 🧠 Vision
 
 CodeChronicles aims to create a platform where technology and creativity meet — helping developers and learners not just code, but also share their journey, document learnings, and inspire others.
