@@ -1,0 +1,25 @@
+.left-side{
+    background-color: darkcyan;
+    width: 40rem;
+    border-radius: 10px;
+    border-color: rgb(238, 13, 13);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.right-side{
+    background-color: rgb(34, 178, 255);
+    width: 40rem;
+    border-radius: 10px;
+     margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+.blog-section{
+    background-color: grey;
+    justify-content: center;
+}
