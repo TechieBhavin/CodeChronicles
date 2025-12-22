@@ -12,14 +12,14 @@ const Hero = () => {
   return (
     <>
       <div className="container hero">
-        <h1 className="text-center mb-4">Operating Systems</h1>
+        <h1 className="text-center mb-4">Database Management System</h1>
         
         <div className="blogs-grid">
           {data.map((item, index) => (
             <div
               className="blog-card"
               key={index}
-              onClick={() => navigate(`/categories/os/blog/${item.slug}`)}
+              onClick={() => navigate(`/categories/dbms/blog/${item.slug}`)}
             >
               <div className="card-body-2">
                 <h2 className="title-text-2">{item.title}</h2>

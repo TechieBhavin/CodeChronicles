@@ -1,7 +1,7 @@
 .card {
     width: 950px;
-    margin-left: auto;  /* pushes container to the right */
-    margin-right: 10px;
+    /* margin-left: auto;  pushes container to the right */
+    /* margin-right: 10px; */
     /* optional: fix the height to prevent card from growing too much */
     /* height: 250px; */
 }
@@ -76,7 +76,6 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
 .blog-category-tag {
   display: inline-block;
   background: #e0e7ff;

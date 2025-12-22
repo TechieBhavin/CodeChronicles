@@ -1,90 +1,46 @@
 import React from "react";
 import "./hero.css";
 import { useNavigate } from "react-router-dom";
+import data from "./data.js";
 
 const Hero = () => {
-
   const navigate = useNavigate();
-  
-    const handleblog = () => {
-      navigate("/categories/dsa/blog");
-    };
+
   return (
     <>
-      <div className="container text-center  hero">
-        <h1 className="fw-bold">DSA</h1>
-        {/* <p className="text-muted">Browse by subject</p> */}
+      <div className="container hero">
+        {/* Page Title */}
+        <h1 className="text-center mb-4">Data Structures and Algorithms</h1>
 
-        {/* <div className="col text-center d-flex justify-content-center flex-wrap gap-4"> */}
-          <div className="card" onClick={handleblog}>
-            <div className="card-body">
-              <p class="title-text">Introduction to arrays</p>
-              <p className="text-muted card-text">
-                An array is a collection of items of the same variable type that
-                are stored at contiguous memory locations. It is one of the most
-                popular and simple data structures used in programming.In an
-                array, all the elements or their references are stored in
-                contiguous memory locations. This allows for efficient access
-                and manipulation of elements.
-              </p>
+        {/* BLOG GRID (like Categories page) */}
+        <div className="blogs-grid">
+          {data.map((item, index) => (
+            <div
+              className="blog-card"
+              key={index}
+              onClick={() => navigate(`/categories/dsa/blog/${item.slug}`)}
+            >
+               {/* IMAGE */}
+      <div className="blog-image-wrapper">
+        <img
+          src={item.image}
+          alt={item.title}
+          className="blog-card-image"
+        />
+      </div>
+              <div className="card-body-2">
+                <h2 className="title-text-2">{item.title}</h2>
+                <p className="title-info-2">{item.description}</p>
+                <p className="blog-category-tag category-text">
+                  {item.category}
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="card" onClick={handleblog}>
-            <div className="card-body">
-              <p class="title-text">Introduction to arrays</p>
-              <p className="text-muted card-text">
-                An array is a collection of items of the same variable type that
-                are stored at contiguous memory locations. It is one of the most
-                popular and simple data structures used in programming.In an
-                array, all the elements or their references are stored in
-                contiguous memory locations. This allows for efficient access
-                and manipulation of elements.
-              </p>
-            </div>
-          </div>
-          <div className="card" onClick={handleblog}>
-            <div className="card-body">
-              <p class="title-text">Introduction to arrays</p>
-              <p className="text-muted card-text">
-                An array is a collection of items of the same variable type that
-                are stored at contiguous memory locations. It is one of the most
-                popular and simple data structures used in programming.In an
-                array, all the elements or their references are stored in
-                contiguous memory locations. This allows for efficient access
-                and manipulation of elements.
-              </p>
-            </div>
-          </div>
-          <div className="card" onClick={handleblog}>
-            <div className="card-body">
-              <p class="title-text">Introduction to arrays</p>
-              <p className="text-muted card-text">
-                An array is a collection of items of the same variable type that
-                are stored at contiguous memory locations. It is one of the most
-                popular and simple data structures used in programming.In an
-                array, all the elements or their references are stored in
-                contiguous memory locations. This allows for efficient access
-                and manipulation of elements.
-              </p>
-            </div>
-          </div>
-          <div className="card" onClick={handleblog}>
-            <div className="card-body">
-              <p class="title-text">Introduction to arrays</p>
-              <p className="text-muted card-text">
-                An array is a collection of items of the same variable type that
-                are stored at contiguous memory locations. It is one of the most
-                popular and simple data structures used in programming.In an
-                array, all the elements or their references are stored in
-                contiguous memory locations. This allows for efficient access
-                and manipulation of elements.
-              </p>
-            </div>
-          </div>
-        
+          ))}
+        </div>
       </div>
     </>
   );
-}
+};
 
 export default Hero;
