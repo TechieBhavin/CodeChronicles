@@ -309,6 +309,232 @@ Network security protects data and systems.
 It includes firewalls, encryption, and access control.
 `, image: "/media/demo.png"
   }
+  ,{
+    id: 26,
+    title: "What is ICMP? Internet Control Message Protocol",
+    slug: "what-is-icmp",
+    description: "Understand ICMP and how it helps in network diagnostics.",
+    category: "COMPUTER NETWORKS",
+    content: `
+ICMP is used for error reporting and diagnostics.
+
+Tools like ping and traceroute use ICMP messages.
+
+It operates at the Network layer.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 27,
+    title: "What is Ping and How It Works?",
+    slug: "what-is-ping-and-how-it-works",
+    description: "Learn how ping checks network connectivity.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Ping sends ICMP echo requests.
+
+It measures round-trip time and packet loss.
+
+Used to check host availability.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 28,
+    title: "What is Traceroute?",
+    slug: "what-is-traceroute",
+    description: "Understand how traceroute tracks packet paths.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Traceroute shows the path taken by packets.
+
+It identifies hops between source and destination.
+
+Helpful for troubleshooting delays.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 29,
+    title: "What is Network Congestion?",
+    slug: "what-is-network-congestion",
+    description: "Learn causes and effects of network congestion.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Network congestion occurs when traffic exceeds capacity.
+
+It leads to packet loss and delays.
+
+Congestion control helps manage traffic.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 30,
+    title: "What is Quality of Service (QoS)?",
+    slug: "what-is-quality-of-service-qos",
+    description: "Understand how QoS prioritizes network traffic.",
+    category: "COMPUTER NETWORKS",
+    content: `
+QoS prioritizes critical traffic.
+
+Used in VoIP and video streaming.
+
+Improves user experience.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 31,
+    title: "What is Proxy Server?",
+    slug: "what-is-proxy-server",
+    description: "Learn how proxy servers work and their benefits.",
+    category: "COMPUTER NETWORKS",
+    content: `
+A proxy acts as an intermediary between client and server.
+
+It improves security and privacy.
+
+Used for content filtering and caching.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 32,
+    title: "What is Reverse Proxy?",
+    slug: "what-is-reverse-proxy",
+    description: "Understand how reverse proxies handle server requests.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Reverse proxy sits in front of servers.
+
+It distributes client requests.
+
+Used in load balancing and security.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 33,
+    title: "What is SMTP?",
+    slug: "what-is-smtp",
+    description: "Learn how emails are sent using SMTP.",
+    category: "COMPUTER NETWORKS",
+    content: `
+SMTP stands for Simple Mail Transfer Protocol.
+
+It is used to send emails.
+
+Works with POP3 and IMAP.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 34,
+    title: "What is POP3 vs IMAP?",
+    slug: "pop3-vs-imap",
+    description: "Understand email retrieval protocols.",
+    category: "COMPUTER NETWORKS",
+    content: `
+POP3 downloads emails locally.
+
+IMAP syncs emails across devices.
+
+IMAP is more flexible.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 35,
+    title: "What is FTP?",
+    slug: "what-is-ftp",
+    description: "Learn how FTP is used for file transfer.",
+    category: "COMPUTER NETWORKS",
+    content: `
+FTP stands for File Transfer Protocol.
+
+Used to upload and download files.
+
+Operates over TCP.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 36,
+    title: "What is SFTP?",
+    slug: "what-is-sftp",
+    description: "Understand secure file transfer using SFTP.",
+    category: "COMPUTER NETWORKS",
+    content: `
+SFTP is a secure version of FTP.
+
+It uses SSH encryption.
+
+Provides secure file transfers.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 37,
+    title: "What is Telnet?",
+    slug: "what-is-telnet",
+    description: "Learn how Telnet allows remote access.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Telnet allows remote command execution.
+
+It is not secure.
+
+Mostly replaced by SSH.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 38,
+    title: "What is SSH?",
+    slug: "what-is-ssh",
+    description: "Understand secure remote access using SSH.",
+    category: "COMPUTER NETWORKS",
+    content: `
+SSH provides encrypted remote access.
+
+Used by system administrators.
+
+More secure than Telnet.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 39,
+    title: "What is Wireless Networking?",
+    slug: "what-is-wireless-networking",
+    description: "Learn basics of wireless communication.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Wireless networks use radio waves.
+
+Wi-Fi is a common example.
+
+Provides mobility and flexibility.
+`,
+    image: "/media/demo.png"
+  },
+  {
+    id: 40,
+    title: "What is Wi-Fi?",
+    slug: "what-is-wifi",
+    description: "Understand how Wi-Fi works and standards.",
+    category: "COMPUTER NETWORKS",
+    content: `
+Wi-Fi allows wireless internet access.
+
+Uses IEEE 802.11 standards.
+
+Common in homes and offices.
+`,
+    image: "/media/demo.png"
+  }
+
 ];
 
 export default data;

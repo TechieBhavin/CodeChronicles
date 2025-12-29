@@ -9,7 +9,10 @@ import Navbar from "./LandingPage/Navbar";
 import Footer from "./LandingPage/Footer";
 import Notfound from "./LandingPage/NotfoundPage/hero";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import ProfilePage from "./LandingPage/ProfilePage/hero";
+// import ProfilePage from "./LandingPage/ProfilePage/hero";
+import Login from "./Auth/LoginPage";
+import Register from "./Auth/Register";
+import ProfilePage from "./LandingPage/ProfilePreviewPage/ProfilePreview";
 import Dsa from "./LandingPage/CategoryDetailPage/dsa/hero";
 import Cn from "./LandingPage/CategoryDetailPage/cn/hero";
 import Oops from "./LandingPage/CategoryDetailPage/oops/hero";
@@ -34,6 +37,8 @@ root.render(
       <Route path="/home" element={<Home />}></Route>
       <Route path="/about" element={<About />}></Route>
       <Route path="/Categories" element={<Categories />}></Route>
+      <Route path="/login" element={<Login />}></Route>
+      <Route path="/register" element={<Register />} />
       <Route path="*" element={<Notfound />}></Route>
       <Route path="/my-profile" element={<ProfilePage />}></Route>
 

@@ -1,27 +1,11 @@
 /* ================= BLOG CARD ONLY ================= */
-
-.card-2 {
-  width: 100%;
-  max-width: 760px;          /* keeps cards narrow */
-  margin: 18px auto;        /* center cards vertically */
-  padding: 18px 22px;
-  border-radius: 12px;
-  border: 1px solid #e5e7eb;
-  background-color: #ffffff;
-  cursor: pointer;
-  transition: all 0.25s ease;
-}
-
-/* Hover effect */
-.card-2:hover {
-  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-  transform: translateY(-2px);
-}
-
-/* Remove bootstrap padding interference */
-.card-2-body {
-  padding: 0;
-}
+ .category-title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #111827;
+    margin-bottom: 20px;
+ }
 
 /* Blog title */
 .title-text-2 {

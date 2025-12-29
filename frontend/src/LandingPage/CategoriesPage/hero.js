@@ -7,32 +7,32 @@ const CategoriesPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="container text-center my-5 hero">
-      <h1 className="fw-bold">Categories</h1>
-      <p className="text-muted">Browse by subject</p>
+    <div className="container my-5 hero featured-wrapper">
+      <h1 className="fw-bold text-center">Categories</h1>
+      <p className="text-muted text-center">Browse by subject</p>
 
       <div className="row text-center d-flex justify-content-center flex-wrap gap-4">
-        {/* ✅ Auto Generate Cards */}
+       
+        <div className="categories-grid">
         {categories.map((item, index) => (
           <div
-            className="card"
-            style={{ width: "18rem", cursor: "pointer" }}
+            className="category-card"
             key={index}
             onClick={() => navigate(item.link)}
           >
-            <div className="card-body">
-              <h2 className="title-text">{item.name}</h2>
-              <p className="title-info">{item.desc}</p>
+            <div className="icon-wrapper">
+              <span className="category-icon">{item.icon}</span>
+            </div>
 
-              <button
-                onClick={() => navigate(item.link)}
-                className="explore-btn-featured"
-              >
-                Explore {item.name}
-              </button>
+            <h2 className="category-title">{item.name}</h2>
+            <p className="category-desc">{item.desc}</p>
+
+            <div className="category-link">
+              Explore <span>→</span>
             </div>
           </div>
         ))}
+      </div>
       </div>
     </div>
   );

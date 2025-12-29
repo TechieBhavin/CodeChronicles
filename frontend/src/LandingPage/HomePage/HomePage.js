@@ -1,7 +1,7 @@
 import React from 'react';
 import FeaturedBlogs from './FeaturedBlogs';
 import CircleLayout from './CircleLayout';
-import FeaturedBlogs2 from './FeaturedBlogs2';
+// import FeaturedBlogs2 from './FeaturedBlogs2';
 import Home from './hero';
 import "./hero.css";
 
@@ -12,7 +12,7 @@ function HomePage() {
          <Home />
         <CircleLayout />
         <FeaturedBlogs />
-        <FeaturedBlogs2/>
+        {/* <FeaturedBlogs2/> */}
        </div>
     </>
 }

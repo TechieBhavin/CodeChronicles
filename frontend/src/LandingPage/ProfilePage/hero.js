@@ -1,105 +1,57 @@
-import React from "react";
 import "./ProfilePage.css";
 
 const ProfilePage = () => {
   return (
-    <div className="profile-container hero">
-      {/* Header */}
-      <div className="profile-header hero">
-        <div className="profile-left">
-          <img src="/media/vision.png" alt="Profile" className="profile-img" />
-          <div className="profile-info">
-            <h2>Techie Bhavin</h2>
-            <p className="username">@techie.bhavin</p>
+    <div className="profile-container">
 
-            <div className="social-links">
-              <div className="mt-4">
-                <a
-                  href="https://github.com/TechieBhavin"
-                  className="me-3 fs-4 text-dark"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/patelbhavin0205/"
-                  className="me-3 fs-4 text-primary"
-                >
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://x.com/Bhavin0325" className="fs-4 text-info">
-                  <i className="fab fa-twitter"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* PROFILE HEADER */}
+      <div className="profile-card">
+        <img
+          src="/media/mission.png"
+          alt="profile"
+          className="profile-avatar"
+        />
 
-        <div className="profile-right">
-          <p>
-            <strong>Email:</strong> techie.bhavin@gmail.com
+        <div className="profile-info">
+          <h2>Techie Bhavin</h2>
+          <p className="username">@techie.bhavin</p>
+          <p className="bio">
+            Full Stack Developer | Java | React | Node.js
           </p>
-          <p>
-            <strong>Location:</strong> Surat, India
-          </p>
-          <p>
-            <strong>Technical Skills:</strong> Java, React.js, Node.js, Flutter
-          </p>
+          <button className="primary">✍️ Edit your profile</button>
+
+          {/* <span className="role-badge">Reader</span> */}
         </div>
       </div>
 
-      {/* Progress Section */}
-      {/* <div className="progress-section">
-        <h3>Overall Progress</h3>
-        <div className="progress-grid">
-          <div className="progress-card">
-            <h4>A2Z Sheet</h4>
-            <p>Progress: 21/455 (5%)</p>
-            <div className="progress-bar">
-              <div className="bar-fill" style={{ width: "5%" }}></div>
-            </div>
-          </div>
+      {/* STATS */}
+      <div className="stats-bar">
+        <div><h3>12</h3><p>Blogs</p></div>
+        <div><h3>3.2k</h3><p>Views</p></div>
+        <div><h3>240</h3><p>Likes</p></div>
+        <div><h3>18</h3><p>Bookmarks</p></div>
+      </div>
 
-          <div className="progress-card">
-            <h4>SDE Sheet</h4>
-            <p>Progress: 1/191 (1%)</p>
-            <div className="progress-bar">
-              <div className="bar-fill" style={{ width: "1%" }}></div>
-            </div>
-          </div>
+      {/* ACTION BUTTONS */}
+      <div className="action-buttons">
+        <button className="primary">✍️ Request to Publish</button>
+        <button className="secondary">🚀 Become a Publisher</button>
+        <button className="outline">📊 Dashboard</button>
+      </div>
 
-          <div className="progress-card">
-            <h4>Blind 75</h4>
-            <p>Progress: 3/77 (4%)</p>
-            <div className="progress-bar">
-              <div className="bar-fill" style={{ width: "4%" }}></div>
-            </div>
-          </div>
+      {/* TABS */}
+      <div className="profile-tabs">
+        <button className="active">My Blogs</button>
+        <button>Bookmarks</button>
+        <button>Reading List</button>
+        <button>Settings</button>
+      </div>
 
-          <div className="progress-card">
-            <h4>LeetCode</h4>
-            <p>Problems Solved: 434 / 3705</p>
-            <p>Easy: 129 | Medium: 236 | Hard: 69</p>
-          </div>
-        </div>
-      </div> */}
+      {/* TAB CONTENT */}
+      <div className="tab-content">
+        <p>No blogs published yet.</p>
+      </div>
 
-      {/* Topics Covered */}
-      {/* <div className="topics-section">
-        <h3>Topics Covered</h3>
-        <div className="topics-list">
-          <span>Arrays</span>
-          <span>Recursion</span>
-          <span>Sorting</span>
-          <span>Hashing</span>
-          <span>Two Pointers</span>
-          <span>Binary Search</span>
-        </div>
-      </div> */}
-
-      {/* Bottom Section */}
-      {/* <div className="share-section">
-        <button className="share-btn">Share Your Profile</button>
-      </div> */}
     </div>
   );
 };

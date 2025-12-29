@@ -56,6 +56,11 @@ function Navbar() {
               About us
             </Link>
           </li>
+           <li>
+            <Link className="cattext" to="/login">
+              Login
+            </Link>
+          </li>
            
         </ul>
 

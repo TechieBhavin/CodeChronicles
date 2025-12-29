@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <div className="container hero">
         {/* Page Title */}
-        <h1 className="text-center mb-4">Data Structures and Algorithms</h1>
+        <h1 className="text-center category-title mb-4">Data Structures and Algorithms</h1>
 
         {/* BLOG GRID (like Categories page) */}
         <div className="blogs-grid">

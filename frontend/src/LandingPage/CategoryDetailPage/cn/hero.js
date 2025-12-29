@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <>
       <div className="container hero">
-        <h1 className="text-center mb-4">Computer Networks</h1>
+        <h1 className="text-center category-title mb-4">Computer Networks</h1>
         
         <div className="blogs-grid">
           {data.map((item, index) => (

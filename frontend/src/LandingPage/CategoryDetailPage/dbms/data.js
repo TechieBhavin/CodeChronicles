@@ -20,6 +20,7 @@ Popular DBMS examples include MySQL, PostgreSQL, MongoDB, Oracle, and SQL Server
     readTime: "6 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -43,6 +44,7 @@ DBMS is preferred for scalable and secure applications.
     readTime: "7 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -65,6 +67,7 @@ Types:
     readTime: "8 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -88,6 +91,7 @@ Relational model organizes data into tables using rows and columns.
     readTime: "7 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -110,6 +114,7 @@ It is widely used during database design before converting to relational schema.
     readTime: "6 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -134,6 +139,7 @@ Keys help maintain data integrity and relationships between tables.
     readTime: "7 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -158,6 +164,7 @@ They prevent invalid data insertion into tables.
     readTime: "6 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -181,6 +188,7 @@ Goal: Reduce redundancy and dependency.
     readTime: "9 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -202,6 +210,7 @@ It is the opposite of normalization.
     readTime: "6 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -225,6 +234,7 @@ Examples: MySQL vs MongoDB
     readTime: "8 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -247,6 +257,7 @@ Critical for financial systems.
     readTime: "7 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -270,6 +281,7 @@ Transactions ensure reliability.
     readTime: "7 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -292,6 +304,7 @@ Prevents issues like dirty reads.
     readTime: "9 min",
     level: "Advanced",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -312,6 +325,7 @@ Handling methods:
     readTime: "7 min",
     level: "Advanced",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -335,6 +349,7 @@ Indexes trade space for speed.
     readTime: "8 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -356,6 +371,7 @@ Essential for protecting user data.
     readTime: "6 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -378,6 +394,7 @@ Critical for fault tolerance.
     readTime: "7 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -398,6 +415,7 @@ Advantages:
     readTime: "5 min",
     level: "Beginner",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -418,6 +436,7 @@ Benefits:
     readTime: "6 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
 
   {
@@ -438,7 +457,455 @@ Used for:
     readTime: "6 min",
     level: "Intermediate",
     category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
   },
+    {
+    id: 21,
+    slug: "relational-algebra",
+    title: "Relational Algebra in DBMS",
+    excerpt:
+      "Understand the basic operations of relational algebra used in DBMS.",
+    content: `
+Relational Algebra is a procedural query language.
+
+Basic operations include:
+- Selection
+- Projection
+- Union
+- Set Difference
+- Cartesian Product
+
+It forms the foundation of SQL queries.
+`,
+    tags: ["DBMS", "Relational Algebra"],
+    readTime: "8 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 22,
+    slug: "relational-calculus",
+    title: "Relational Calculus in DBMS",
+    excerpt:
+      "Learn how relational calculus differs from relational algebra.",
+    content: `
+Relational Calculus is a non-procedural query language.
+
+Types:
+- Tuple Relational Calculus (TRC)
+- Domain Relational Calculus (DRC)
+
+It focuses on what data is needed, not how to get it.
+`,
+    tags: ["DBMS", "Relational Calculus"],
+    readTime: "7 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 23,
+    slug: "functional-dependencies",
+    title: "Functional Dependencies in DBMS",
+    excerpt:
+      "Understand functional dependencies and their role in normalization.",
+    content: `
+Functional dependency defines relationships between attributes.
+
+Example:
+If A → B, then A uniquely determines B.
+
+Used to identify normalization rules.
+`,
+    tags: ["DBMS", "Normalization"],
+    readTime: "8 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 24,
+    slug: "lossless-decomposition",
+    title: "Lossless Decomposition in DBMS",
+    excerpt:
+      "Learn how to decompose tables without losing data.",
+    content: `
+Lossless decomposition ensures no information loss.
+
+Conditions:
+- Common attribute
+- Functional dependency preservation
+
+Essential for good database design.
+`,
+    tags: ["DBMS", "Normalization"],
+    readTime: "7 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 25,
+    slug: "query-processing",
+    title: "Query Processing in DBMS",
+    excerpt:
+      "Understand how DBMS executes SQL queries internally.",
+    content: `
+Query processing includes:
+- Parsing
+- Optimization
+- Execution
+
+Query optimizer selects the most efficient execution plan.
+`,
+    tags: ["DBMS", "Query Processing"],
+    readTime: "9 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 26,
+    slug: "query-optimization",
+    title: "Query Optimization in DBMS",
+    excerpt:
+      "Learn how DBMS improves query execution performance.",
+    content: `
+Query optimization reduces execution cost.
+
+Techniques:
+- Index usage
+- Join ordering
+- Cost-based optimization
+
+Critical for large datasets.
+`,
+    tags: ["DBMS", "Performance"],
+    readTime: "8 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 27,
+    slug: "distributed-dbms",
+    title: "Distributed DBMS",
+    excerpt:
+      "Understand databases distributed across multiple locations.",
+    content: `
+Distributed DBMS stores data across multiple sites.
+
+Advantages:
+- Scalability
+- Fault tolerance
+- High availability
+
+Challenges include data consistency.
+`,
+    tags: ["DBMS", "Distributed Systems"],
+    readTime: "9 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 28,
+    slug: "replication-in-dbms",
+    title: "Replication in DBMS",
+    excerpt:
+      "Learn how data replication improves availability.",
+    content: `
+Replication copies data across multiple servers.
+
+Types:
+- Master-slave
+- Master-master
+
+Improves fault tolerance and performance.
+`,
+    tags: ["DBMS", "Replication"],
+    readTime: "7 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 29,
+    slug: "sharding-in-dbms",
+    title: "Sharding in DBMS",
+    excerpt:
+      "Understand horizontal partitioning using sharding.",
+    content: `
+Sharding splits data across multiple databases.
+
+Used for:
+- Scalability
+- Performance
+
+Common in large-scale applications.
+`,
+    tags: ["DBMS", "Scalability"],
+    readTime: "7 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 30,
+    slug: "data-warehousing",
+    title: "Data Warehousing",
+    excerpt:
+      "Learn the basics of data warehouses and OLAP systems.",
+    content: `
+A data warehouse stores historical data.
+
+Used for:
+- Reporting
+- Analytics
+- Decision making
+
+Optimized for read operations.
+`,
+    tags: ["DBMS", "Data Warehouse"],
+    readTime: "8 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 31,
+    slug: "oltp-vs-olap",
+    title: "OLTP vs OLAP",
+    excerpt:
+      "Compare transactional and analytical database systems.",
+    content: `
+OLTP:
+- Day-to-day operations
+- Fast transactions
+
+OLAP:
+- Analytics
+- Complex queries
+
+Both serve different purposes.
+`,
+    tags: ["DBMS", "OLTP", "OLAP"],
+    readTime: "6 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 32,
+    slug: "cap-theorem",
+    title: "CAP Theorem in DBMS",
+    excerpt:
+      "Understand consistency, availability, and partition tolerance.",
+    content: `
+CAP theorem states:
+A system can satisfy only two of the three:
+- Consistency
+- Availability
+- Partition Tolerance
+
+Important for distributed databases.
+`,
+    tags: ["DBMS", "Distributed Systems"],
+    readTime: "7 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 33,
+    slug: "nosql-types",
+    title: "Types of NoSQL Databases",
+    excerpt:
+      "Explore key-value, document, column, and graph databases.",
+    content: `
+NoSQL database types:
+- Key-value (Redis)
+- Document (MongoDB)
+- Column-based (Cassandra)
+- Graph (Neo4j)
+
+Used for flexible schemas.
+`,
+    tags: ["DBMS", "NoSQL"],
+    readTime: "8 min",
+    level: "Beginner",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 34,
+    slug: "database-tuning",
+    title: "Database Performance Tuning",
+    excerpt:
+      "Learn how to optimize database performance.",
+    content: `
+Performance tuning includes:
+- Index optimization
+- Query optimization
+- Caching
+
+Improves response time and throughput.
+`,
+    tags: ["DBMS", "Performance"],
+    readTime: "7 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 35,
+    slug: "cloud-databases",
+    title: "Cloud Databases",
+    excerpt:
+      "Understand databases hosted on cloud platforms.",
+    content: `
+Cloud databases are managed services.
+
+Examples:
+- Amazon RDS
+- Google Cloud SQL
+- Azure SQL
+
+Offer scalability and low maintenance.
+`,
+    tags: ["DBMS", "Cloud"],
+    readTime: "6 min",
+    level: "Beginner",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 36,
+    slug: "database-migration",
+    title: "Database Migration",
+    excerpt:
+      "Learn how databases are migrated between systems.",
+    content: `
+Database migration moves data between systems.
+
+Types:
+- Homogeneous
+- Heterogeneous
+
+Requires careful planning.
+`,
+    tags: ["DBMS", "Migration"],
+    readTime: "6 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 37,
+    slug: "metadata-in-dbms",
+    title: "Metadata in DBMS",
+    excerpt:
+      "Understand the importance of metadata in databases.",
+    content: `
+Metadata describes database structure.
+
+Includes:
+- Table definitions
+- Index info
+- Constraints
+
+Stored in system catalog.
+`,
+    tags: ["DBMS", "Metadata"],
+    readTime: "5 min",
+    level: "Beginner",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 38,
+    slug: "database-locking",
+    title: "Database Locking",
+    excerpt:
+      "Learn how locks maintain data consistency.",
+    content: `
+Locking prevents conflicts during transactions.
+
+Types:
+- Shared lock
+- Exclusive lock
+
+Essential for concurrency control.
+`,
+    tags: ["DBMS", "Concurrency"],
+    readTime: "7 min",
+    level: "Intermediate",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 39,
+    slug: "two-phase-commit",
+    title: "Two-Phase Commit Protocol",
+    excerpt:
+      "Understand how distributed transactions are committed.",
+    content: `
+Two-phase commit ensures atomicity.
+
+Phases:
+- Prepare
+- Commit
+
+Used in distributed databases.
+`,
+    tags: ["DBMS", "Distributed Systems"],
+    readTime: "8 min",
+    level: "Advanced",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  },
+
+  {
+    id: 40,
+    slug: "database-design-best-practices",
+    title: "Database Design Best Practices",
+    excerpt:
+      "Learn essential best practices for designing databases.",
+    content: `
+Good database design includes:
+- Proper normalization
+- Meaningful naming
+- Indexing strategy
+- Security planning
+
+Leads to scalable systems.
+`,
+    tags: ["DBMS", "Design"],
+    readTime: "6 min",
+    level: "Beginner",
+    category: "DATABASE MANAGEMENT SYSTEM",
+    image: "/media/demo.png"
+  }
+
 ];
 
 export default blogs;

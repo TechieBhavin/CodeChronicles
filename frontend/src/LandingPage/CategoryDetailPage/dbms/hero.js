@@ -12,7 +12,7 @@ const Hero = () => {
   return (
     <>
       <div className="container hero">
-        <h1 className="text-center mb-4">Database Management System</h1>
+        <h1 className="text-center category-title mb-4">Database Management System</h1>
         
         <div className="blogs-grid">
           {data.map((item, index) => (
@@ -21,6 +21,14 @@ const Hero = () => {
               key={index}
               onClick={() => navigate(`/categories/dbms/blog/${item.slug}`)}
             >
+                 {/* IMAGE */}
+      <div className="blog-image-wrapper">
+        <img
+          src={item.image}
+          alt={item.title}
+          className="blog-card-image"
+        />
+      </div>
               <div className="card-body-2">
                 <h2 className="title-text-2">{item.title}</h2>
                 <p className="title-info-2">{item.excerpt}</p>
