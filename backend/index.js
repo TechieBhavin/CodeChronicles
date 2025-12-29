@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import categoryRoutes from "./routes/category.routes.js";
 
 // Load environment variables from .env file
 dotenv.config();
@@ -29,6 +30,8 @@ app.listen(PORT, () => {
 app.get("/", (req, res) => {
   res.send("Hello Techie!");
 });
+
+app.use('/api', categoryRoutes);
 
 // Export the app for testing or further usage
 export default app; 

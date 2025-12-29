@@ -9,18 +9,19 @@ const ProfilePreview = () => {
 
       {/* PROFILE LOCKED CARD */}
       <div className="preview-card">
-        <img
+        {/* <img
           src="/avatar-placeholder.png"
           alt="guest"
           className="preview-avatar"
-        />
+        /> */}
 
         <h2>Guest User</h2>
-        <p className="preview-role">Not Signed In</p>
+        {/* <p className="preview-role">Not Signed In</p> */}
+        <p className="preview-role">Sign In to Explore More</p>
 
-        <div className="locked-overlay">
+        {/* <div className="locked-overlay">
           🔒 Profile Locked
-        </div>
+        </div> */}
       </div>
 
       {/* FEATURE PREVIEW */}

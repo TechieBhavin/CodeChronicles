@@ -19,6 +19,7 @@ const CategoriesPage = () => {
             className="category-card"
             key={index}
             onClick={() => navigate(item.link)}
+            
           >
             <div className="icon-wrapper">
               <span className="category-icon">{item.icon}</span>

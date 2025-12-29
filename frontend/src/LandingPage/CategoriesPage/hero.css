@@ -21,7 +21,6 @@
   transition: all 0.3s ease;
   position: relative;
 }
-
 .category-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
@@ -59,6 +58,7 @@
   margin-bottom: 20px;
 }
 
+
 /* LINK */
 .category-link {
   font-size: 14px;
@@ -73,3 +73,5 @@
   transform: translateX(4px);
   transition: transform 0.2s ease;
 }
+
+
